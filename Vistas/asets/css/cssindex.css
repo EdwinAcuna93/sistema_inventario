@@ -1,0 +1,47 @@
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  list-style: none;
+  background: black;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 100px;
+  border-color: white;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: white;
+  background: #999999;
+}
+body {
+    background-position: center center;
+        background-color: #c0c0c0;
+        background-image:
+        repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+        linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+        linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+        background-size: 70px 120px;
+}
+
+
+
+
+
